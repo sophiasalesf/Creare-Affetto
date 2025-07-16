@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e2c1a6;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.content{
+    background-color: brown;
+    height: 480px;
+    width: 600px;
+}
+*/
+
+.content{
+    /*background-color: brown;*/
+    height: 800px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-da-marca{
+    width: 110px;
+    border-radius: 100px;
+    border: 6px solid #ffffff;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    /*
+    border: 8px solid #ffffff;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    */
+}
+
+.arroba-de-instagram{
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.frase-de-efeito{
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    /*background-color: brown;*/
+}
+
+a{
+    background-color: #ffffff;
+    color: #a18c78;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 98%;
+    height: 64px;
+    margin: auto;
+    text-decoration: none;
+
+    /* Centralização vertical e horizontal*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #a18c78;
+    font-weight: bold;
+}
