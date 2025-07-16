@@ -27,6 +27,7 @@ body{
     border: 6px solid #ffffff;
     background-color: #ffffff;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 
 .arroba-de-instagram{
@@ -77,35 +78,4 @@ a:hover{
     color: #ffffff;
     background-color: #a18c78;
     font-weight: bold;
-}
-
-
-/* Responsividade para telas pequenas (como celular) */
-@media (max-width: 600px) {
-    .content {
-        width: 90%;
-        height: auto;
-        padding: 20px 10px;
-    }
-
-    .arroba-de-instagram {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .frase-de-efeito {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    a {
-        font-size: 18px;
-        width: 100%;
-        height: 56px;
-    }
-
-    .logo-da-marca {
-        width: 100px;
-        margin-top: 10px;
-    }
 }
