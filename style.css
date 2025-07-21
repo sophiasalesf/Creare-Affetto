@@ -27,7 +27,7 @@ body{
     border: 6px solid #ffffff;
     background-color: #ffffff;
     box-sizing: border-box;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .arroba-de-instagram{
@@ -78,4 +78,12 @@ a:hover{
     color: #ffffff;
     background-color: #a18c78;
     font-weight: bold;
+}
+
+@media(max-width: 600px){
+    .content{
+        height: 100vh;
+        width: 90%;
+        margin-top: 30px;
+    }
 }
